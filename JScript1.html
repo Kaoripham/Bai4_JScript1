@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JScript1</title>
+</head>
+<body>
+
+<p>Bai tap 1***</p>
+<button type="button" onclick="showMessage();">Click Here!</button>
+
+<p>Bai tap 2***</p>
+
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage1();">Click Me!</button>
+
+<p>Bai tap 3***</p>
+<button type="button" onclick="showMessage2();">Click this!</button>
+
+<p>Bai tap 4***</p>
+<button type="button" onclick="showMessage3();">Click point!</button>
+
+<script>
+    function showMessage(){
+        prompt('How are you?');
+    }
+    function showMessage1(){
+document.getElementById('messageDiv').innerHTML = 'Good morning!';
+}
+    function showMessage2(){
+        document.write('Good afternoon!');
+    }
+
+    function showMessage3(){
+        console.log('Good evening!');
+    }
+</script>
+</body>
+</html>
